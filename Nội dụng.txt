@@ -1,0 +1,18 @@
+- Tìm hiểu về mô hình AI mã nguồn mở (DeepSeek, Llama,...)
+- Tìm cách tải modelmodel và chạy thử trên local
+- Tìm hiểu về thuật toán, các hàm, các thư viện,... hỗ trợ mô hình
+- Tìm hiểu CUDA và setup GPU 
+
+1. Mô hình AI mã nguồn mở 
+- Mô hình AI được coi là mã nguồn mở khi: 
+  + Người dùng có thể sử dụng mô hình cho bất kỳ mục đích nào mà không cần xin phép.
+  + Có thể tìm hiểu cách hệ thống hoạt động và hiểu cách nó tạo ra kết quả.
+  + Có quyền thay đổi hệ thống và cách nó tạo ra kết quả đầu ra.
+  + Được phép chia sẻ hệ thống với người khác cho bất kỳ mục đích nào.
+  + Ngoài ra, mô hình cũng phải minh bạch về dữ liệu huấn luyện, 
+  mã nguồn mở và các tham số huấn luyện, đủ để người dùng có thể tái tạo một hệ thống tương đương.
+
+- Vậy có bao nhiêu mô hình AI mã nguồn mở hiện nay, tiêu biểu trong số đó là những model nào?
+ + Hiện nay, có hàng nghìn mô hình mã nguồn mở được phát triển và chia sẻ trên toàn cầu. Riêng trên Github
+ có hơn 8000 dự án về AI mã nguồn mở được công bố, bao gồm các mô hình ngôn ngữ lớn đến các ứng dụng thử nghiệm
+ + 
