@@ -15,4 +15,5 @@
 - Vậy có bao nhiêu mô hình AI mã nguồn mở hiện nay, tiêu biểu trong số đó là những model nào?
  + Hiện nay, có hàng nghìn mô hình mã nguồn mở được phát triển và chia sẻ trên toàn cầu. Riêng trên Github
  có hơn 8000 dự án về AI mã nguồn mở được công bố, bao gồm các mô hình ngôn ngữ lớn đến các ứng dụng thử nghiệm
- + 
+ + VD: Typ
+ 
