@@ -3,17 +3,65 @@
 - Tìm hiểu về thuật toán, các hàm, các thư viện,... hỗ trợ mô hình
 - Tìm hiểu CUDA và setup GPU 
 
-1. Mô hình AI mã nguồn mở 
-- Mô hình AI được coi là mã nguồn mở khi: 
-  + Người dùng có thể sử dụng mô hình cho bất kỳ mục đích nào mà không cần xin phép.
-  + Có thể tìm hiểu cách hệ thống hoạt động và hiểu cách nó tạo ra kết quả.
-  + Có quyền thay đổi hệ thống và cách nó tạo ra kết quả đầu ra.
-  + Được phép chia sẻ hệ thống với người khác cho bất kỳ mục đích nào.
-  + Ngoài ra, mô hình cũng phải minh bạch về dữ liệu huấn luyện, 
-  mã nguồn mở và các tham số huấn luyện, đủ để người dùng có thể tái tạo một hệ thống tương đương.
+Mô hình AI Nguồn Mở
+1. Giới thiệu
+Mô hình trí tuệ nhân tạo (AI) mã nguồn mở là các hệ thống AI có mã nguồn, bộ dữ liệu và tham số mô hình được công khai. Những mô hình này có thể được sử dụng, nghiên cứu, chỉnh sửa và phân phối lại theo các giấy phép mã nguồn mở cụ thể. Cách tiếp cận này thúc đẩy sự hợp tác, minh bạch và đổi mới trong nghiên cứu và phát triển AI.
 
-- Vậy có bao nhiêu mô hình AI mã nguồn mở hiện nay, tiêu biểu trong số đó là những model nào?
- + Hiện nay, có hàng nghìn mô hình mã nguồn mở được phát triển và chia sẻ trên toàn cầu. Riêng trên Github
- có hơn 8000 dự án về AI mã nguồn mở được công bố, bao gồm các mô hình ngôn ngữ lớn đến các ứng dụng thử nghiệm
- + VD: Typ
- 
+2. Định nghĩa AI Nguồn Mở
+Theo Sáng kiến Nguồn Mở (OSI), một mô hình AI được coi là mã nguồn mở nếu nó cung cấp cho người dùng quyền tự do:
+
+Sử dụng hệ thống cho bất kỳ mục đích nào mà không cần xin phép.
+Nghiên cứu cách hệ thống hoạt động và kiểm tra các thành phần của nó.
+Chỉnh sửa hệ thống, bao gồm thay đổi đầu ra.
+Chia sẻ hệ thống với hoặc không có sửa đổi cho bất kỳ mục đích nào.
+Để đáp ứng các điều kiện này, quyền truy cập vào các thành phần quan trọng như bộ dữ liệu huấn luyện, trọng số mô hình và mã nguồn phải được cung cấp.
+
+3. Đặc điểm chính của AI Nguồn Mở
+Khả năng tiếp cận: Bất kỳ ai cũng có thể truy cập và sử dụng mô hình mà không có hạn chế độc quyền.
+Minh bạch: Cấu trúc mô hình, dữ liệu huấn luyện và chi tiết triển khai được công khai.
+Hợp tác: Các nhà nghiên cứu và lập trình viên trên toàn thế giới có thể đóng góp để cải thiện mô hình.
+Khả năng tái tạo: Các mô hình AI mã nguồn mở có thể được kiểm tra và xác thực độc lập.
+4. Ưu điểm của AI Nguồn Mở
+4.1 Tiết kiệm chi phí
+Không mất phí bản quyền hoặc chi phí sử dụng, giúp giảm thiểu rào cản tài chính.
+Giảm sự phụ thuộc vào các giải pháp AI độc quyền.
+4.2 Minh bạch và đáng tin cậy
+Mã nguồn công khai giúp đảm bảo tính minh bạch và trách nhiệm giải trình.
+Người dùng có thể kiểm tra cách mô hình xử lý dữ liệu và đưa ra quyết định.
+4.3 Hỗ trợ từ cộng đồng
+Cộng đồng lớn giúp cải thiện, sửa lỗi và tối ưu hóa mô hình nhanh chóng.
+Phát hiện và khắc phục lỗ hổng bảo mật một cách nhanh chóng.
+4.4 Tùy chỉnh và linh hoạt
+Người dùng có thể điều chỉnh mô hình AI để phù hợp với nhu cầu cụ thể.
+Dễ dàng thích ứng với nhiều lĩnh vực và ứng dụng khác nhau.
+4.5 Hỗ trợ nghiên cứu và giáo dục
+Tạo điều kiện cho sinh viên, nhà nghiên cứu tiếp cận và học hỏi từ các mô hình mở.
+Thúc đẩy sự phát triển của AI thông qua nghiên cứu hợp tác.
+5. Nhược điểm của AI Nguồn Mở
+5.1 Rủi ro bảo mật
+Mô hình công khai có thể bị lợi dụng bởi các tác nhân xấu.
+Một số người có thể loại bỏ các giao thức an toàn để sử dụng sai mục đích.
+5.2 Chất lượng và độ tin cậy
+Các dự án do cộng đồng phát triển có thể thiếu tiêu chuẩn hóa.
+Mô hình nguồn mở có thể không tối ưu như các sản phẩm độc quyền.
+5.3 Yêu cầu tài nguyên tính toán
+Việc huấn luyện và triển khai mô hình AI nguồn mở cần tài nguyên phần cứng mạnh.
+Không phải người dùng nào cũng có khả năng tiếp cận cơ sở hạ tầng tính toán cao cấp.
+5.4 Thách thức thương mại hóa
+Thiếu các mô hình doanh thu trực tiếp cho nhà phát triển.
+Doanh nghiệp có thể gặp khó khăn trong việc kiếm lợi nhuận từ các mô hình AI nguồn mở.
+6. Các Mô Hình AI Nguồn Mở Phổ Biến
+DeepSeek: Một mô hình AI mã nguồn mở mạnh mẽ với độ minh bạch cao.
+LLaMA (Meta): Mô hình ngôn ngữ lớn với trọng số mở dành cho nghiên cứu.
+Hugging Face Transformers: Kho lưu trữ phổ biến cho các mô hình AI nguồn mở.
+Stable Diffusion: Mô hình AI tạo hình ảnh nguồn mở.
+Whisper (OpenAI): Mô hình nhận diện giọng nói mã nguồn mở.
+7. Kết luận
+AI mã nguồn mở đã thay đổi bối cảnh AI bằng cách thúc đẩy khả năng tiếp cận, hợp tác và minh bạch. Mặc dù mang lại nhiều lợi ích, nhưng các thách thức như rủi ro bảo mật, yêu cầu tài nguyên và khó khăn trong thương mại hóa vẫn còn tồn tại. Khi AI tiếp tục phát triển, các mô hình nguồn mở sẽ đóng vai trò quan trọng trong việc định hình tương lai của công nghệ AI một cách sáng tạo và đạo đức.
+
+8. Nguồn tham khảo
+1. Open Source Initiative (OSI) - Định nghĩa về AI mã nguồn mở
+2. Bài báo trên WSJ về OpenAI và Elon Musk (13/02/2025)
+3. DeepSeek - Tổng quan về AI mã nguồn mở
+4. Báo cáo Nature về "Openwashing" trong AI
+5. Dữ liệu từ Meta, Google và Amazon về AI nguồn mở (08/2024)
